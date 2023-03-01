@@ -12,8 +12,6 @@ body{
 
 }
 #mainimg{
-    /* height: 100px;
-    width: 100px; */
     border-radius: 50%;
     margin-top: 100px;
     z-index: 3;
@@ -25,7 +23,6 @@ body{
 }
 .main{
     background-color: #141417;
-    /* z-index: ; */
     position: absolute;
     width: 900px;
     height: 290px;
@@ -42,7 +39,6 @@ body{
     border-right: .15em solid ; /*The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    /* letter-spacing: .15em; Adjust as needed */
     animation:
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -50,7 +46,6 @@ body{
 /* The typing effect */
 @keyframes typing {
 from { width: 0 }
-/* to { width: 100% } */
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -85,10 +80,8 @@ from, to { border-color: transparent }
     margin-left: 310px;
 }
 #github{
-    /* position: absolute; */
     width: 40px;
     height: 40px;
-    /* box-shadow: 0px 0px 3px lightgray; */
     border-radius: 50px;
     margin-top: 7.8px;
     margin-left: 8px;
@@ -114,7 +107,6 @@ from, to { border-color: transparent }
     position: absolute;
     width: 30px;
     height: 30px;
-    /* filter: drop-shadow(0px 0px 1px lightgray); */
     margin-left: 200px;
     margin-top: 14px;
 }
@@ -163,7 +155,6 @@ from, to { border-color: transparent }
     transition: background-color .5s ease-out;
 }
 .main2:hover{
-    /* margin-top: 5px; */
     transition: .5s ease;
     background-color: rgb(47, 46, 46);
 }
