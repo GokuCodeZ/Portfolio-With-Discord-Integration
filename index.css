@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://wallpaperaccess.com/full/84248.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+#mainimg{
+    /* height: 100px;
+    width: 100px; */
+    border-radius: 50%;
+    margin-top: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-left: -70px;
+    /* border-color: 2px 2px solid black; */
+    box-shadow: 2px 2px 5px black;
+    cursor: context-menu;
+}
+.main{
+    background-color: #141417;
+    /* z-index: ; */
+    position: absolute;
+    width: 900px;
+    height: 290px;
+    border-radius: 5px;
+    margin-left: 195px;
+    margin-top: 150px;
+}
+.main a img{
+    margin-top: 190px;
+}
+/* Typing Effect */
+.main p{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid ; /*The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+/* to { width: 100% } */
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: white; }
+} 
+.main p{
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-size: 1em;
+    color: gainsboro;
+    margin-top: 135px;
+    position: absolute;
+    margin-left: 220px;
+}
+::-moz-selection { /* Code for Firefox */
+    color: transparent;
+    text-shadow: 2px 2px 5px gray;
+  }
+  
+  ::selection {
+    /* color: transparent; */
+    text-shadow: 2px 2px 5px gray;
+    filter: blur(5px);
+  }
+
+.main h1{
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-size: 1.5em;
+    color: gainsboro;
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 310px;
+}
+#github{
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    /* box-shadow: 0px 0px 3px lightgray; */
+    border-radius: 50px;
+    margin-top: 7.8px;
+    margin-left: 8px;
+    filter: drop-shadow(3px 3px 5px #4d4d4d);
+}
+.main2{
+    width: 300px;
+    height: 60px;
+    background-color: #141414;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 470px; /* 500px */
+    margin-left: 39%;
+}
+.main2 p{
+    color: lightgray;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 60px;
+}
+.main2 .arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    /* filter: drop-shadow(0px 0px 1px lightgray); */
+    margin-left: 200px;
+    margin-top: 14px;
+}
+.dc{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.nt{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 510px;
+    margin-top: 11px;
+}
+.bst{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 478px;
+    margin-top: 11px;
+}
+.child{
+    position: absolute;
+    background-color: rgb(47, 46, 46);
+    width: 153px;
+    height: 43px;
+    margin-left: 735px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.dev{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 445px;
+    margin-top: 11px;
+}
+.main2{
+    cursor: pointer;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+.main2:hover{
+    /* margin-top: 5px; */
+    transition: .5s ease;
+    background-color: rgb(47, 46, 46);
+}
